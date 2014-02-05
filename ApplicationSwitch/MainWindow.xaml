@@ -1,0 +1,13 @@
+﻿<Window x:Class="ApplicationSwitch.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ApplicationSwitch" Height="120" Width="250" Loaded="Window_Loaded">
+    <Grid Background="Black">
+        <!--<ListBox x:Name="activeProgram" SelectionChanged="activeProgram_SelectionChanged">
+            
+        </ListBox>-->
+        <TextBox Width="84" Height="25"  x:Name="TimerValue" Text="5" Margin="0,26,117,0" VerticalAlignment="Top" HorizontalAlignment="Right"></TextBox>
+        <Button x:Name="switchButton" Height="25" Content="Start Switch" Click="Button_Click" Margin="129,26,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="72"></Button>
+        <Label Foreground="White" Content="@SamarthShah_" Height="32" HorizontalAlignment="Left" Margin="74,57,0,0" Name="label1" VerticalAlignment="Top" Width="95" />
+    </Grid>
+</Window>
